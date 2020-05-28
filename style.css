@@ -144,7 +144,7 @@ nav h1 {
   margin: 0 250px;
 }
 
-.projects a {
+.projects img {
   width: 70%;
   object-fit: cover;
   overflow: hidden;
