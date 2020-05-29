@@ -109,6 +109,7 @@ main .projects,
 #quote {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   font-size: 3rem;
   background-color: lavenderblush;
@@ -117,9 +118,11 @@ main .projects,
   background-repeat: no-repeat;
   padding: 30px;
   height: 100vh;
+  flex-direction: column;
 }
 
 #quote h1 {
+  justify-items: center;
   margin: 0 300px;
   color: #2b2b2b;
 }
@@ -296,7 +299,7 @@ a {
 }
 
 @media screen and (max-width: 876px) {
-    nav {
+  nav {
     flex-direction: column;
     transition: top 0.3s;
     top: 0;
@@ -337,12 +340,12 @@ a {
     width: 100%;
   }
 
-  .projects h2{
+  .projects h2 {
     margin-top: -10px;
     font-size: 2.5rem;
   }
-  
-  .projects h3{
+
+  .projects h3 {
     font-size: 1.2rem;
     margin-top: 0px;
   }
@@ -352,11 +355,11 @@ a {
     object-fit: cover;
   }
 
-  .projects-2 h2{
+  .projects-2 h2 {
     font-size: 2.5rem;
   }
-  
-  .projects-2 h3{
+
+  .projects-2 h3 {
     font-size: 1.2rem;
     margin-top: -5px;
   }
